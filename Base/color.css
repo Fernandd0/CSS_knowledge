@@ -1,0 +1,33 @@
+body{
+    color:rosybrown;
+}
+
+#titulo {
+    color:tomato;
+}
+
+/*Conversion sexagesimal*/
+.texto {
+    color: #111;
+}
+
+/*Conversion rgb*/
+.texto {
+    color: rgb(red, green, blue);
+}
+
+h2 {
+    color: darkblue;
+}
+
+article {
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 10px;
+}
+
+article {
+    height: 200px;
+    background-image: url("fondo_moster.png");
+    background-size: contain;
+}
