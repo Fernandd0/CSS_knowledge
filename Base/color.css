@@ -1,9 +1,9 @@
-body{
-    color:rosybrown;
-}
-
+/*Estilos para titulo*/
 #titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:tomato;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
 }
 
 /*Conversion sexagesimal*/
@@ -16,6 +16,7 @@ body{
     color: rgb(red, green, blue);
 }
 
+/*Estilos, colores y marcos */
 h2 {
     color: darkblue;
 }
@@ -30,4 +31,50 @@ article {
     height: 200px;
     background-image: url("fondo_moster.png");
     background-size: contain;
+}
+
+/*Estilos de color en enlaces*/
+a:link {
+    color: blue;
+}
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: red;
+}
+a:active {
+    color: cadetblue;
+}
+
+/*Estilos para listas*/
+ul {
+    background-color: beige;
+    list-style-type: circle;
+}
+
+/*Estilos para tablas*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 3px #aaa;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th:hover {
+    background-color: #aaa;
+    cursor: pointer;
 }
