@@ -1,0 +1,83 @@
+/*
+CSS (Cascadin Style Sheets)
+Basicamente darle estilo a la pagina en cascada, es decir que los estilos que se dan se aplican con mas importancia desde el ultimo.
+
+* PARTES DE UNA CODIGO CSS:
+    SELECTOR {
+        propiedad: valor;
+    }
+
+
+* 3 FORMAS PARA APLICAR CSS:
+    - Importar un doc css a html (recomendable)
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>WELCOME</title>
+            <link rel="stylesheet" href="style_color.css">
+            </style>
+        </head>
+        <body></body>
+    </html>
+
+    - Escribir css como una etiqueta en html (tal vez no)
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Document</title>
+            <style>
+                body {
+                    color:rosybrown
+                }
+            </style>
+        </head>
+        <body></body>
+    </html>
+
+    - Escribir css dentro de etiquetas html (no recomendable)
+    <!DOCTYPE html>
+    <html>
+       <head>
+          <title>WELCOME</title>
+         </style>
+     </head>
+     <body style="color:rosybrown">
+         <h1>WELCOME CHIKEND MID</h1>
+        </body>
+    </html>
+
+
+* ESPECIFICIDAD:
+    Especificaciones que serviran para tomar mas importancia en el run del codigo CSS, pero ahora toma el nivel de jerarquia de los estilos. link (img/especificidad.png)
+
+
+* METODOLOGIA BEM:
+    Conocer que elemento seleccionamos apartir de una type class:
+    <div class="follow-form">
+        <p class="follow-form__p">
+            <h3 class="follow-form__p-h3"></h3>
+        </p>
+    </div>
+
+
+* TEORIA MEDIDAS:
+    - Relativas: mejor para compatibilidad con diferenets hadware.
+        font-size: 1em segun font-size: 10px
+    - Vijas: limita la compatibilidad.
+
+* TEORIA DE CAJAS:
+    -Elemento en linea: Elemenos que no ocupan todo el espacio disponible en la pagina (b).
+    -Elemento en bloque: Elementos que ocupan todo el espacio disponible en la pagina (h1, h2, p, etc).
+
+* BOX MODEL:
+    - CONTENT:
+        Espacio que ocupa el texto (contenido) dentro de la caja.
+    - PADDING:
+        Espacio entre el texto y el borde de la caja.
+    - BORDER:
+        Espacop de los bordes de las cajas.
+    - MARGIN:
+        Espacio fuera de las cajas.
+
+
+*/

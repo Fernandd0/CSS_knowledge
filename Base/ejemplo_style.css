@@ -29,7 +29,7 @@ article {
 
 article {
     height: 200px;
-    background-image: url("fondo_moster.png");
+    background-image: url("img/fondo_moster.png");
     background-size: contain;
 }
 
