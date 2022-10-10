@@ -1,0 +1,76 @@
+/*Estilo de fuentes usadas*/
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*Estilo de fonto tota: body*/
+body {
+    /*background-color: rgb(248, 236, 217);*/
+    background-image: url(img/background_3.png);
+}
+
+/*Estilo del encabezado*/
+header {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 2rem 3rem
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navbar {
+    cursor: pointer;
+    list-style: none;
+}
+
+/*Estilo de section:articulos*/
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+h2 , p{
+    margin: 1rem;
+    text-align: center;
+}
+
+section article:hover {
+    box-shadow: 0 0.2rem 0.8rem #292b2c;
+}
+
+/*Estilo del pie de pagina*/
+footer {
+    background-color: aliceblue;
+    color: aliceblue;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    transition:  color 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+
+footer small {
+    color: black;
+    text-decoration: none;
+} /*Estilo solo del copyright*/
